@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <title>Mateusz Wróbel: Photo Gallery</title>
 </head>
 <body>
-    
+    <div class="main-scroll">
+        <div>
+            <button class="icon" onclick="scrollRight()">
+                <i class="fa-solid fa-angles-left"></i>
+            </button>
+        </div>
+        <div class="cover">
+            <div class="scroll-images">
+                <div class="child"><img class="child-img" src="./img/Mateusz Wróbel foto (7).JPG" alt=""></div>
+                <div class="child"><img class="child-img" src="./img/Mateusz Wróbel foto (6).JPG" alt=""></div>
+                <div class="child"><img class="child-img" src="./img/Mateusz Wróbel foto (5).JPG" alt=""></div>
+                <div class="child"><img class="child-img" src="./img/Mateusz Wróbel foto (4).jpg" alt=""></div>
+                <div class="child"><img class="child-img" src="./img/Mateusz Wróbel foto (3).jpg" alt=""></div>
+                <div class="child"><img class="child-img" src="./img/Mateusz Wróbel foto (12).jpg" alt=""></div>
+            </div>
+        </div>
+        <div>
+            <button class="icon" onclick="scrollL()"><i class="fa-solid fa-angles-right"></i></button>
+        </div>
+    </div>
 
     <script src="./main.js"></script>
 </body>
